@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20211110/pngtree-latar-foto-estetik-polos-image_915537.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color:rgba(183, 134, 232, 0.448);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;   
+    margin: 0px;
+}
+h2 {
+    font-size: 40px;
+    color: rgb(36, 81, 122);
+}
+.navbar {
+    background-color: rgb(234, 158, 118);
+    padding: 20px 0px;
+    margin: 0px 200px;
+    border-radius: 50px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 90px;
+    font-size: 25px;
+}
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+}
+.nav-menu li a:hover {
+    background-color: rgba(157, 46, 46, 0.6);
+    border-radius: 100%;
+}
+main{
+    margin: 10px 200px;
+    text-align: justify;
+    font-size: 20px;
+}
+h3 {
+    color: rgb(36, 81, 122);
+    font-size: 25px;
+}
+table, th, td {
+    border: 1px solid rgb(198, 62, 21);
+    border-width: medium;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+th {
+    background-color: rgba(236, 177, 126, 0.448);
+}
+section.kontak {
+    background-color: rgba(198, 62, 21, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 900px 20px 0px;
+}
